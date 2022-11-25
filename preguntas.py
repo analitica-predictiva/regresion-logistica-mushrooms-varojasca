@@ -136,7 +136,7 @@ def pregunta_03():
         steps=[
             ("onehotencoder", OneHotEncoder()),
             ("logisticregression", LogisticRegressionCV(Cs=10)),
-        ]
+        ],
     )
 
     # Entrene el pipeline con los datos de entrenamiento.
